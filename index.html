@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Profile</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hello, I'm Sri Harshitha</h1>
+      <p>Aspiring Web Developer | Tech Enthusiast | Creative Thinker</p>
+    </header>
+
+    <section class="profile-section">
+      <img src="she.jpg" alt="Profile Picture" class="profile-pic"/>
+      <div class="intro">
+        <h2>About Me</h2>
+        <p>
+          Welcome to my space on the web! I'm passionate about technology, design, and building experiences
+          that are both functional and visually pleasing. Let's connect!
+        </p>
+        <button onclick="greetUser()">Click to Greet</button>
+        <p id="greeting"></p>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 [Your Friend's Name]. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
